@@ -1,0 +1,153 @@
+/* route select  */
+.route-select {
+    text-align: center;
+}
+
+.ant-segmented .ant-segmented-item {
+    padding: 4px 12px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.select-airport {
+    background: #fff;
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 17px;
+    cursor: pointer;
+}
+
+.ant-collapse-small>.ant-collapse-item>.ant-collapse-header {
+    padding: 0;
+}
+
+.agent-price:before {
+    content: "";
+    display: block;
+    width: 304px;
+    height: 1px;
+    background: #c3c3c3;
+    position: absolute;
+    top: 29px;
+    left: -15px;
+}
+
+.agent-price {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+.custom-list-item:hover {
+    background-color: #E6EBEF;
+    cursor: pointer;
+}
+
+.flight-search .ant-select-arrow {
+    color: #fff !important;
+    font-weight: 700;
+}
+
+.ant-select-selection-placeholder {
+    color: #000 !important;
+}
+
+.ant-input-affix-wrapper-lg {
+    padding: 11px 11px;
+}
+
+.ant-btn.ant-btn-lg {
+    height: 47px;
+}
+
+.ant-picker-large {
+    padding: 8.5px 11px 10.5px;
+}
+
+.ant-picker .ant-picker-separator {
+    position: relative;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    vertical-align: top;
+    cursor: default;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 1px;
+    height: 25px;
+    margin-right: 11px;
+}
+
+.ant-picker .ant-picker-separator svg {
+    display: none;
+}
+
+.plan-animation svg {
+    margin: 0;
+}
+
+
+
+.book-now-button {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    inset: 0px;
+    border-radius: inherit;
+}
+
+.book-now-button:after {
+    animation: shine 5s infinite;
+    animation-delay: 0s;
+    background: #fff;
+    content: "";
+    filter: blur(20px);
+    height: 200px;
+    left: -20px;
+    margin-top: -20px;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    transform-origin: top;
+    width: 30px;
+}
+
+.search-button {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    inset: 0px;
+    border-radius: inherit;
+}
+
+.search-button:after {
+    animation: shine 3s infinite;
+    animation-delay: 0s;
+    background: #fff;
+    content: "";
+    filter: blur(20px);
+    height: 100px;
+    left: -20px;
+    margin-top: -20px;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    transform-origin: top;
+    width: 30px;
+}
+
+.class-select span.ant-select-selection-item {
+    color: rgb(9 85 156);
+    font-weight: bold;
+}
+
+@media screen and (max-width:1270px) {
+    .agent-price:before {
+        width: 100%;
+        top: 29px;
+        left: 0px;
+    }
+}

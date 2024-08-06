@@ -1,0 +1,107 @@
+/* title */
+.title_logo {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.title h2,
+p {
+    margin: 0;
+}
+
+/* details */
+
+.details {
+    margin: 18px 0 10px 0;
+}
+
+/* depart and arrival */
+
+
+.depart_arrival h3 {
+    margin: 0;
+    color: gray;
+}
+
+.depart_arrival h2 {
+    margin: 3px 0 5px 0px;
+    font-size: 25px;
+}
+
+
+
+/* duration  */
+.duration_time {
+    text-align: center;
+    margin-top: 26px;
+}
+
+.duration_time p:first-child {
+    margin-left: 12px;
+}
+
+
+
+.progressbar {
+    margin-bottom: 21px;
+
+    margin-top: 20px;
+}
+
+.progress {
+    width: 88%;
+    border: 0.1px solid darkgray;
+    margin: auto;
+    position: relative;
+}
+
+.progressbar span {
+    padding: 7px;
+    display: inline-block;
+    border-radius: 4px;
+    position: absolute;
+    top: -7px;
+    left: 0;
+}
+
+.progressbar span:nth-child(2) {
+    left: 50%;
+    border-radius: 10px;
+    padding: 5px 11px;
+    top: -4px;
+}
+
+.progressbar span:last-child {
+    top: -7px;
+    left: 100%;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+/* ticket form */
+.ticket_form {
+    margin-top: 20px;
+}
+
+.ticket_form hr {
+    margin-bottom: 35px;
+}
+
+/* ticket price */
+.ticket_price h3 {
+    margin: 0 0 18px 0;
+}
+
+.ticket_price hr {
+    margin: 25px 0;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}

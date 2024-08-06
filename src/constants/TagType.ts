@@ -1,0 +1,12 @@
+export const AIRPORT_LIST = 'AIRPORT_LIST';
+export const FLIGHT_LIST = 'FLIGHT_LIST';
+export const PNR = 'PNR';
+export const TICKETLIST = 'TICKETLIST';
+export const B2CUSER = 'B2CUSER';
+export const TRANSACTIONHISTORY = 'TRANSACTIONHISTORY';
+export const BOOKINGREQUEST = 'BOOKINGREQUEST';
+export const SUBAGENCY = 'SUBAGENCY';
+export const PROFILE = 'PROFILE';
+export const AIRLINECOMMISSION = "AIRLINECOMMISSION"
+// -- b2c
+export const B2CBOOKINGREQUEST = 'B2CBOOKINGREQUEST';
